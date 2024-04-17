@@ -1,0 +1,48 @@
+.course-main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course-main .course {
+  width: 10rem;
+  height: 15rem;
+  border: 1px solid lightgray;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 0.5rem;
+  justify-content: center;
+}
+
+.course .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course .image img {
+    border-radius: 1rem;
+}
+.course .title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgba(115, 5, 143, 0.719);
+}
+
+.course .description {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.course .price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+}
